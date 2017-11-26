@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
 			float direction = Mathf.Sign(transform.position.x - collision.contacts[0].point.x);
 			rigid.AddForce(new Vector2(500f * direction, 500));
 			statsController.DealDamage(collision.gameObject.GetComponent<StatsController>().strenght);
-			healthBar.transform.localScale = new Vector3(statsController.Hp, 1f, 1f);
+			healthBar.transform.localScale = new Vector3(Mathf.Max(0, statsController.Hp), 1f, 1f);
 		}
 	}
 }
