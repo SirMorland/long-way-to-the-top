@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using NetIrc2;
 using NetIrc2.Events;
 
@@ -12,6 +13,10 @@ public class VoteController : MonoBehaviour
 	public GameObject bossOne;
 	public GameObject bossTwo;
 	public GameObject bossThree;
+
+	public Text textOne;
+	public Text textTwo;
+	public Text textThree;
 
 	int bossOneVotes;
 	int bossTwoVotes;
@@ -60,6 +65,10 @@ public class VoteController : MonoBehaviour
 
 	void Update ()
 	{
+		textOne.text = bossOneVotes.ToString ("000");
+		textTwo.text = bossTwoVotes.ToString ("000");
+		textThree.text = bossThreeVotes.ToString ("000");
+
 		if (transform.position.x > 20 && !firstBoss)
 		{
 			firstBoss = true;

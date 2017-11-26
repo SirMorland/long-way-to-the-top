@@ -1,0 +1,236 @@
+Initialize engine version: 5.6.4f1 (ac7086b8d112)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\NetIrc2.dll (this message is harmless)
+Loading C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\NetIrc2.dll into Unity Child Domain
+- Completed reload, in  0.024 seconds
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.741106 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.181382 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 0.322774 ms (FindLiveObjects: 0.029375 ms CreateObjectMapping: 0.017342 ms MarkObjects: 0.262254 ms  DeleteObjects: 0.013448 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.797026 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 0.570164 ms (FindLiveObjects: 0.044947 ms CreateObjectMapping: 0.040346 ms MarkObjects: 0.476375 ms  DeleteObjects: 0.007786 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.133958 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 0.793487 ms (FindLiveObjects: 0.061228 ms CreateObjectMapping: 0.058750 ms MarkObjects: 0.660767 ms  DeleteObjects: 0.011325 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.192000 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 0.776853 ms (FindLiveObjects: 0.056627 ms CreateObjectMapping: 0.059458 ms MarkObjects: 0.648734 ms  DeleteObjects: 0.011679 ms)
+
+Platform assembly: C:\Users\arttu\Desktop\Unity projektit\long-way-to-the-top\LWTTT\LWTTT_Data\Managed\Mono.Security.dll (this message is harmless)
+Joystick disconnected ("Controller (Xbox 360 Wireless Receiver for Windows)").
+ 
+(Filename:  Line: 1258)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+???
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+??????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+?????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hhephaestos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.078746 ms
+
+Unloading 103 unused Assets to reduce memory usage. Loaded Objects now: 270.
+Total: 0.915235 ms (FindLiveObjects: 0.036807 ms CreateObjectMapping: 0.055919 ms MarkObjects: 0.330206 ms  DeleteObjects: 0.491594 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.246681 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 0.327729 ms (FindLiveObjects: 0.038577 ms CreateObjectMapping: 0.025836 ms MarkObjects: 0.248805 ms  DeleteObjects: 0.013802 ms)
+
+???
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+???
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+?????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+?????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+???
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+???
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaestos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaestos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaesetos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaesetos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaestos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaestos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Joystick reconnected ("Controller (Xbox 360 Wireless Receiver for Windows)").
+ 
+(Filename:  Line: 1323)
+
+????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+???
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+???
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+??????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+??????
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaestos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hephaestos
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+drago
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+drago
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+dragon
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
