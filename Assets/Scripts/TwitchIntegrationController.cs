@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using NetIrc2;
 using NetIrc2.Events;
+using System.Collections;
 
 public class TwitchIntegrationController : MonoBehaviour
 {
@@ -42,7 +43,6 @@ public class TwitchIntegrationController : MonoBehaviour
 	{
 		Debug.Log("Error: " + ircErrorEventArgs.Data.ToString());
 	}
-
 
 	void Update()
 	{

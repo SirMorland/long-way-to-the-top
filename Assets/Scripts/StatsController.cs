@@ -9,10 +9,12 @@ public class StatsController : MonoBehaviour
 	int hp;
 	public int strenght;
 	SpriteRenderer spriteRend;
+	Animator anim;
 
 	void Start()
 	{
 		spriteRend = GetComponent<SpriteRenderer>();
+		anim = GetComponent<Animator>();
 		hp = maxHp;
 	}
 
@@ -31,13 +33,24 @@ public class StatsController : MonoBehaviour
 		{
 			if (gameObject.tag == "Player")
 			{
-				spriteRend.enabled = false;
+				anim.SetTrigger("die");
+				GetComponent<PlayerController>().enabled = false;
 				Camera.main.GetComponent<CameraController>().enabled = false;
+				StartCoroutine(End());
 			}
 			else
 			{
-				Destroy(gameObject);
+				anim.SetTrigger("die");
+				GetComponent<CapsuleCollider2D>().enabled = false;
+				GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+				GetComponent<Rigidbody2D>().isKinematic = true;
 			}
 		}
+	}
+
+	IEnumerator End()
+	{
+		yield return new WaitForSeconds(1);
+		SceneManager.LoadScene(2);
 	}
 }

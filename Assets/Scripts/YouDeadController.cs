@@ -22,7 +22,7 @@ public class YouDeadController : MonoBehaviour
 
 	IEnumerator Wait()
 	{
-		yield return new WaitForSeconds(5);
+		yield return new WaitForSeconds(2);
 		readyToEnd = true;
 	}
 }

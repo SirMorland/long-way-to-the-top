@@ -22,7 +22,7 @@ public class SlimeController : MonoBehaviour
 	
 	void Update ()
 	{
-		if (grounded)
+		if (grounded && statsController.Hp > 0)
 		{
 			float direction = Mathf.Sign(player.transform.position.x - transform.position.x);
 			rigid.velocity = new Vector2(speed * direction, rigid.velocity.y);

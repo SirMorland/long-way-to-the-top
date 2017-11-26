@@ -6,6 +6,9 @@ public class EnemySpawner : MonoBehaviour
 {
 	public GameObject enemy;
 
+	bool stage2 = false;
+	bool stage3 = false;
+
 	void Start ()
 	{
 		StartCoroutine(Spawner(20f));
@@ -13,7 +16,16 @@ public class EnemySpawner : MonoBehaviour
 	
 	void Update ()
 	{
-		
+		if (transform.position.x >= 80 && !stage2)
+		{
+			stage2 = true;
+			StartCoroutine(Spawner(100f));
+		}
+		if (transform.position.x >= 160 && !stage3)
+		{
+			stage3 = true;
+			StartCoroutine(Spawner(200f));
+		}
 	}
 
 	IEnumerator Spawner(float x)
