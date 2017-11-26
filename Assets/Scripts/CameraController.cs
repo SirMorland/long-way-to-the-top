@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
 	
 	void Update ()
 	{
-		transform.Translate(Time.deltaTime * 0.5f, 0f, 0f);
+		transform.Translate(Time.deltaTime * 5f, 0f, 0f);
 
 		if (!firstBoss)
 		{

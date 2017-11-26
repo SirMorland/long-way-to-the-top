@@ -19,7 +19,7 @@ public class TwitchIntegrationController : MonoBehaviour
 		ircClient.GotWelcomeMessage += new EventHandler<SimpleMessageEventArgs>(PrintMessage);
 
 		channel = PlayerPrefs.GetString("TWITCH_CHANNEL", "sirmorland").ToLower().Trim();
-		string oAuth = PlayerPrefs.GetString("TWITCH_OAUTH", "z1h9xf43hxh10i566b5d82qvo2fwbv").Trim();
+		string oAuth = PlayerPrefs.GetString("TWITCH_OAUTH", "oauth:vug3thrwdn0iqg486ickxdrswbyq03").Trim();
 
 		if(oAuth.IndexOf("oauth:") != 0)
 		{
