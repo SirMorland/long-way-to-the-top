@@ -10,11 +10,14 @@ public class SlimeController : MonoBehaviour
 	float speed = 5f;
 	bool grounded = false;
 
+	StatsController statsController;
+
 	void Start ()
 	{
 		player = GameObject.FindGameObjectWithTag("Player");
 		rigid = GetComponent<Rigidbody2D>();
 		spriteRend = GetComponent<SpriteRenderer>();
+		statsController = GetComponent<StatsController>();
 	}
 	
 	void Update ()
@@ -49,6 +52,7 @@ public class SlimeController : MonoBehaviour
 			grounded = false;
 			float direction = Mathf.Sign(transform.position.x - collider.transform.position.x);
 			rigid.AddForce(new Vector2(500f * direction, 500));
+			statsController.DealDamage(collider.GetComponent<StatsController>().strenght);
 		}
 	}
 }

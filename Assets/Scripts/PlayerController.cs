@@ -10,11 +10,15 @@ public class PlayerController : MonoBehaviour
 	float speed = 10f;
 	bool grounded = false;
 
+	StatsController statsController;
+	public GameObject healthBar;
+
 	void Start()
 	{
 		rigid = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 		spriteRend = GetComponent<SpriteRenderer>();
+		statsController = GetComponent<StatsController>();
 	}
 
 	void Update()
@@ -75,6 +79,8 @@ public class PlayerController : MonoBehaviour
 			grounded = false;
 			float direction = Mathf.Sign(transform.position.x - collision.contacts[0].point.x);
 			rigid.AddForce(new Vector2(500f * direction, 500));
+			statsController.DealDamage(collision.gameObject.GetComponent<StatsController>().strenght);
+			healthBar.transform.localScale = new Vector3(statsController.Hp, 1f, 1f);
 		}
 	}
 }
